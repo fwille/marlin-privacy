@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy — Marlin</title>
+<title>Privacy Policy for Marlin</title>
 <style>
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -28,66 +28,96 @@
 <h1>Privacy Policy for Marlin</h1>
 <p class="updated">Last updated: June 2026</p>
 
-<p>Marlin ("the app") is a marine species identification and life-list app developed by Fiona Wille. This policy explains what data the app accesses, how it's used, and what is — and isn't — collected or shared.</p>
+<p>Marlin ("the app") is a marine species identification and life-list app developed by Fiona Wille ("the developer," "we," "us"). This policy explains what data the app accesses, how and why it is used, and the rights you have over it, including under the EU General Data Protection Regulation (GDPR).</p>
 
 <h2>Summary</h2>
-<p>Marlin does not require an account, does not use analytics, advertising, or tracking of any kind, and does not collect or transmit your personal data to the developer. Everything you log — sightings, notes, photos, and locations — stays on your device, under your control.</p>
+<p>Marlin does not require an account, does not use analytics, advertising, or tracking of any kind, and does not collect or transmit your personal data to the developer. Everything you log, including sightings, notes, photos, and locations, stays on your device, under your control.</p>
+
+<h2>Data controller</h2>
+<p>For the purposes of GDPR, the data controller is Fiona Wille, the developer of Marlin. Questions, requests, or complaints about how data is handled can be sent to <a href="mailto:marlinid.app@gmail.com">marlinid.app@gmail.com</a>.</p>
 
 <h2>Location</h2>
 <p>Marlin requests access to your device's location (<code>ACCESS_FINE_LOCATION</code> / <code>ACCESS_COARSE_LOCATION</code>) to show you marine species commonly recorded near you, and to optionally tag the location of a sighting you log.</p>
 <ul>
-  <li>Your coordinates are sent only to the <a href="https://api.inaturalist.org/v1/docs/" target="_blank" rel="noopener">iNaturalist API</a> to retrieve nearby-species data — they are not sent to, or stored by, the developer.</li>
-  <li>You can decline location access entirely and use the manual location override in Settings ("as if I'm at…") instead.</li>
-  <li>Location data attached to a sighting is stored only in the app's local database on your device.</li>
+  <li>Your coordinates are sent only to the <a href="https://api.inaturalist.org/v1/docs/" target="_blank" rel="noopener">iNaturalist API</a> to retrieve nearby-species data. They are not sent to, or stored by, the developer.</li>
+  <li>You can decline location access entirely and use the manual location override in Settings ("as if I'm at...") instead.</li>
+  <li>Location data attached to a sighting is stored only in the app's local database, on your device.</li>
 </ul>
+<p><strong>Legal basis:</strong> your consent, given when you grant the location permission (GDPR Art. 6(1)(a)). You can withdraw this consent at any time by revoking the permission in your device's app settings; the app continues to work using the manual location override instead.</p>
 
 <h2>Photos</h2>
-<p>You may attach photos to a sighting from your device's photo library. The permission Marlin requests is used solely to let you pick and attach images — Marlin does not access your photo library for any other purpose.</p>
-<p>Photos you attach are resized and copied into the app's private storage on your device. They are never uploaded to the developer or any third party.</p>
+<p>You may attach photos to a sighting from your device's photo library. The permission Marlin requests is used solely to let you pick and attach images; the app does not access your photo library for any other purpose.</p>
+<p>Photos you attach are resized and copied into the app's private storage, on your device. They are never uploaded to the developer or to any third party.</p>
+<p><strong>Legal basis:</strong> your consent, given when you choose to attach a photo and grant the photo-library permission (GDPR Art. 6(1)(a)).</p>
 
 <h2>Your life list data</h2>
 <p>Sightings, notes, photos, and locations you log are stored in a local database on your device. This data:</p>
 <ul>
-  <li>Is never transmitted to the developer or to any third party</li>
-  <li>May be included in <strong>Android Auto Backup</strong>, a standard Android OS feature that backs up app data to your own Google account (you can disable this in Settings)</li>
-  <li>Can be manually exported to, or imported from, a file of your choosing, entirely under your control</li>
+  <li>is never transmitted to the developer or to any third party,</li>
+  <li>may be included in Android Auto Backup, a standard Android OS feature that copies app data to your own Google account (you can turn this off in Settings),</li>
+  <li>can be manually exported to, or imported from, a file of your choosing, entirely under your control, and</li>
+  <li>is kept only for as long as you keep it in the app; deleting a sighting, clearing the app's storage, or uninstalling the app removes it from your device immediately and permanently.</li>
 </ul>
+<p><strong>Legal basis:</strong> processing is necessary to provide the life-list feature you've asked the app for (GDPR Art. 6(1)(b)).</p>
 
 <h2>Third-party services</h2>
-<p>Marlin makes read-only requests to the following external services to show you species information. No personal data is sent to them beyond what's described above.</p>
+<p>To show you species information and maps, Marlin connects to the external services listed below. Connecting to any internet service exposes your device's IP address to that service, simply as a normal consequence of how the internet works; this is outside the developer's control and applies to every app that goes online.</p>
 <table>
-  <tr><th>Service</th><th>Purpose</th><th>Data sent</th></tr>
+  <tr><th>Service</th><th>Purpose</th><th>What it can see</th></tr>
   <tr>
     <td><a href="https://www.inaturalist.org/pages/api+reference" target="_blank" rel="noopener">iNaturalist API</a></td>
     <td>Species data, photos, observations, nearby-species lookup</td>
-    <td>Approximate coordinates (only for "nearby species" lookups), species search terms</td>
+    <td>Approximate coordinates (only for "nearby species" lookups), species search terms, IP address</td>
   </tr>
   <tr>
     <td><a href="https://www.mediawiki.org/wiki/API:Main_page" target="_blank" rel="noopener">Wikipedia API</a></td>
-    <td>Species summary text shown on species detail pages</td>
-    <td>Species name</td>
+    <td>Species summary text on species detail pages</td>
+    <td>Species name, IP address</td>
   </tr>
   <tr>
-    <td><a href="https://api.iucnredlist.org/" target="_blank" rel="noopener">IUCN Red List API</a></td>
-    <td>Conservation status badge (optional feature)</td>
-    <td>Species name</td>
+    <td><a href="https://api.iucnredlist.org/" target="_blank" rel="noopener">IUCN Red List API</a> (optional feature)</td>
+    <td>Conservation status badge</td>
+    <td>Species name, IP address</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.openstreetmap.org/" target="_blank" rel="noopener">OpenStreetMap tile servers</a></td>
+    <td>Map tiles shown on distribution and sighting maps</td>
+    <td>IP address</td>
+  </tr>
+  <tr>
+    <td><a href="https://unpkg.com/" target="_blank" rel="noopener">unpkg.com</a> (a content delivery network)</td>
+    <td>Loads the Leaflet mapping library that draws the maps</td>
+    <td>IP address</td>
   </tr>
 </table>
-<p>These are independent services with their own privacy policies; Marlin has no control over how they handle requests it sends them.</p>
+<p>These are independent services with their own privacy policies, and the developer has no control over how they process requests sent to them. Most of them are operated from outside the European Economic Area, for example the United States and United Kingdom, so using these features can involve transferring your IP address there. No personal data beyond what's listed above, and what's inherent to any internet connection, is sent.</p>
+<p><strong>Legal basis:</strong> the necessity of these connections to provide the species-lookup and mapping features you've chosen to use (GDPR Art. 6(1)(b)), and, for the international transfers this involves, the necessity of the transfer to provide that feature at your request (GDPR Art. 49(1)(b)).</p>
 
-<h2>What Marlin does <em>not</em> do</h2>
+<h2>Your rights</h2>
+<p>If you're in the European Economic Area, the UK, or anywhere else with similar protections, you have rights over your data, including to access it, correct it, have it erased, restrict or object to its processing, and receive a copy in a portable format.</p>
+<p>Because Marlin keeps everything on your device and nowhere else, you can exercise nearly all of these rights directly and instantly, without contacting anyone:</p>
 <ul>
-  <li>No account or sign-up is required, and Marlin does not collect your name, email, or any other personal identifier</li>
-  <li>No analytics, advertising, or crash-reporting SDKs are included in the app</li>
-  <li>No data is sold, rented, or shared with advertisers or data brokers</li>
-  <li>No data is collected from or about children</li>
+  <li><strong>Access and portability:</strong> open Settings and use the export feature to get a complete copy of your data at any time</li>
+  <li><strong>Correction:</strong> edit any sighting's notes, location, or photos directly in the app</li>
+  <li><strong>Erasure:</strong> delete individual sightings in the app, or remove everything at once by clearing the app's storage or uninstalling it</li>
+  <li><strong>Restriction and objection:</strong> revoke the location or photo-library permission in your device's settings to stop the corresponding processing immediately</li>
+</ul>
+<p>If you believe your data has been mishandled, you also have the right to lodge a complaint with your local data-protection supervisory authority. You're welcome to reach out to <a href="mailto:marlinid.app@gmail.com">marlinid.app@gmail.com</a> first with any questions or concerns; we'll do our best to help.</p>
+
+<h2>What Marlin doesn't do</h2>
+<ul>
+  <li>It doesn't require an account or sign-up, and doesn't collect your name, email address, or any other personal identifier</li>
+  <li>It doesn't include analytics, advertising, or crash-reporting SDKs</li>
+  <li>It doesn't sell, rent, or share your data with advertisers or data brokers</li>
+  <li>It doesn't perform automated decision-making or profiling</li>
+  <li>It isn't directed at children, and doesn't knowingly collect data from them</li>
 </ul>
 
 <h2>Changes to this policy</h2>
 <p>If this policy changes, the updated version will be posted at this same URL with a revised "Last updated" date.</p>
 
 <h2>Contact</h2>
-<p>Questions about this policy or the app's data handling can be sent to <a href="mailto:marlinid.app@gmail.com">marlinid.app@gmail.com</a>.</p>
+<p>Questions about this policy, how the app handles data, or your rights described above can be sent to <a href="mailto:marlinid.app@gmail.com">marlinid.app@gmail.com</a>.</p>
 
 </body>
 </html>
